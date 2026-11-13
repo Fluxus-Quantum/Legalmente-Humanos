@@ -1,0 +1,148 @@
+@import "tailwindcss";
+
+@theme {
+  --color-apple-green: #A6FF00;
+  --color-apple-green-hover: #92E600;
+  --color-dark-base: #000000;
+  --color-dark-surface: #000000;
+  --color-dark-surface-card: #141414;
+  --color-dark-surface-border: #262626;
+  --color-light-surface-card: #F5F5F5;
+  --color-light-surface-subtle: #EAEAEA;
+  --color-text-muted: #A0A0A0;
+  --color-warning-bg: #1F140E;
+  --color-warning-border: #592814;
+  --color-warning-accent: #FF6B35;
+  --color-light-primary: #141414;
+  --color-light-on-primary: #FFFFFF;
+  --color-light-secondary: #A6FF00;
+  --color-light-on-secondary: #000000;
+  --color-light-surface: #FFFFFF;
+  --color-light-on-surface: #000000;
+  --color-light-on-surface-card: #111111;
+  --color-light-outline: #DCDCDC;
+  --color-dark-primary: #A6FF00;
+  --color-dark-on-primary: #000000;
+  --color-dark-secondary: #FFFFFF;
+  --color-dark-on-secondary: #000000;
+  --color-dark-on-surface: #FFFFFF;
+  --color-dark-on-surface-card: #F5F5F5;
+  --color-dark-outline: #2A2A2A;
+
+  --radius-sm: 6px;
+  --radius-md: 16px;
+  --radius-lg: 20px;
+  --radius-xl: 28px;
+  --radius-2xl: 16px;
+  --radius-full: 9999px;
+
+  --spacing-gutter-xs: 4px;
+  --spacing-gutter-sm: 8px;
+  --spacing-gutter-md: 16px;
+  --spacing-gutter-lg: 24px;
+  --spacing-gutter-xl: 32px;
+  --spacing-section-sm: 48px;
+  --spacing-section-md: 72px;
+  --spacing-section-lg: 96px;
+  --spacing-container-max: 1200px;
+
+  --font-display: "Montserrat", sans-serif;
+  --font-headline: "Montserrat", sans-serif;
+  --font-title: "Montserrat", sans-serif;
+  --font-body: "Montserrat", sans-serif;
+  --font-label: "Montserrat", sans-serif;
+
+  --text-display-lg: 52px;
+  --text-display-lg--line-height: 60px;
+  --text-display-lg--letter-spacing: -1.2px;
+  --text-display-lg--font-weight: 800;
+
+  --text-display-lg-mobile: 32px;
+  --text-display-lg-mobile--line-height: 38px;
+  --text-display-lg-mobile--letter-spacing: -0.6px;
+  --text-display-lg-mobile--font-weight: 800;
+
+  --text-display-md: 40px;
+  --text-display-md--line-height: 48px;
+  --text-display-md--letter-spacing: -0.8px;
+  --text-display-md--font-weight: 800;
+
+  --text-display-md-mobile: 28px;
+  --text-display-md-mobile--line-height: 34px;
+  --text-display-md-mobile--letter-spacing: -0.4px;
+  --text-display-md-mobile--font-weight: 800;
+
+  --text-headline-lg: 34px;
+  --text-headline-lg--line-height: 42px;
+  --text-headline-lg--letter-spacing: -0.5px;
+  --text-headline-lg--font-weight: 800;
+
+  --text-headline-lg-mobile: 24px;
+  --text-headline-lg-mobile--line-height: 32px;
+  --text-headline-lg-mobile--letter-spacing: -0.2px;
+  --text-headline-lg-mobile--font-weight: 800;
+
+  --text-headline-md: 24px;
+  --text-headline-md--line-height: 32px;
+  --text-headline-md--letter-spacing: -0.2px;
+  --text-headline-md--font-weight: 700;
+
+  --text-headline-sm: 20px;
+  --text-headline-sm--line-height: 28px;
+  --text-headline-sm--font-weight: 700;
+
+  --text-title-lg: 18px;
+  --text-title-lg--line-height: 26px;
+  --text-title-lg--font-weight: 700;
+
+  --text-body-lg: 18px;
+  --text-body-lg--line-height: 28px;
+  --text-body-lg--font-weight: 400;
+
+  --text-body-md: 16px;
+  --text-body-md--line-height: 24px;
+  --text-body-md--font-weight: 400;
+
+  --text-body-sm: 14px;
+  --text-body-sm--line-height: 20px;
+  --text-body-sm--font-weight: 400;
+
+  --text-label-lg: 15px;
+  --text-label-lg--line-height: 20px;
+  --text-label-lg--letter-spacing: 0.2px;
+  --text-label-lg--font-weight: 700;
+
+  --text-label-md: 13px;
+  --text-label-md--line-height: 18px;
+  --text-label-md--letter-spacing: 0.5px;
+  --text-label-md--font-weight: 600;
+
+  --transition-duration-state-change: 150ms;
+  --transition-duration-surface-enter: 250ms;
+  --ease-state-change: ease-out;
+  --ease-surface-enter: cubic-bezier(0.16, 1, 0.3, 1);
+}
+
+.material-symbols-outlined,
+.material-symbols-rounded,
+.material-symbols-sharp,
+.material-icons {
+  display: inline-block;
+  width: 1em;
+  height: 1em;
+  line-height: 1 !important;
+  box-sizing: content-box;
+  overflow: hidden;
+  white-space: nowrap;
+  direction: ltr;
+  vertical-align: middle;
+}
+
+.material-symbols-filled {
+  font-variation-settings: "FILL" 1;
+}
+
+details[open] summary .faq-chevron {
+  transform: rotate(180deg);
+  color: #A6FF00;
+}
